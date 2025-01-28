@@ -1,5 +1,5 @@
 import { shoe8 } from "../assets/images";
-
+import { aboutus } from "../assets/images";
 
 const SuperQuality = () => {
   return (
@@ -9,18 +9,17 @@ const SuperQuality = () => {
     >
       <div className='flex flex-1 flex-col'>
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
-          We Provide You
-          <span className='text-coral-red'> Super </span>
-          <span className='text-coral-red'>Quality </span> Shoes
+          Discover Our  
+          <span className='text-[#1b50aa]'> Legal </span>Expertise
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+        With 15+ years of experience Prime Legal, stands as the best law firm in Bangalore.
+         With a vision to get justice to all the clients with individual attention our founders
+          Adv Ayantika and Adv Anik established Prime Legal in the year of 2009. We prioritise your 
+          confidentiality through out the legal process. Our team comprises 24 top lawyers in Bangalore
+           each committed to delivering exceptional legal solution tailored to your specific needs
         </p>
-        <p className='mt-6 lg:max-w-lg info-text'>
-          Our dedication to detail and excellence ensures your satisfaction
-        </p>
+        
         {/* <div className='mt-11'>
           <Button label='View details' />
         </div> */}
@@ -28,7 +27,7 @@ const SuperQuality = () => {
 
       <div className='flex-1 flex justify-center items-center'>
         <img
-          src={shoe8}
+          src={aboutus}
           alt='product detail'
           width={570}
           height={522}

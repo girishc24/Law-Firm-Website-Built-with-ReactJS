@@ -6,6 +6,7 @@ import Subscribe from "./Subscribe";
 import Footer from "./Footer";
 import PopularProduct from "./PopularProduct";
 import SuperQuality from "./SuperQuality";
+import Contactus from "./Contactus";
 
 
 export {
@@ -16,5 +17,6 @@ export {
     Subscribe,
     Footer,
     PopularProduct,
-    SuperQuality
+    SuperQuality,
+    Contactus
 }
